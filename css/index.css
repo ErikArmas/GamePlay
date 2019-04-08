@@ -19,13 +19,17 @@ section{
 
 	#Inicio .contenedor-baner{
 		position: absolute;
+		width: 100%;
 		top: 50%;
 		left: 50%;
 		transform: translateX(-50%) translateY(-50%);
+		background: rgba(0,0,0,0.6);
+		box-shadow: 2px 3px 3px rgba(9,148,235,.6); 
 	}
 		#Inicio .contenedor-baner h1{
 			padding: 15px;
 			font-size:5em;
+			text-align: center;
 		}
 		#Inicio .contenedor-baner p{
 			padding: 15px;
